@@ -23,7 +23,7 @@ PyTorch를 사용한 자율주행용 객체 감지 시스템입니다.
 - **Faster R-CNN**: 객체 감지 모델
 - **COCO Dataset**: 학습 데이터
 - **OpenCV**: 이미지 처리 및 시각화
-
+# ( 추후 도커로 배포가능하게 할 예정 )
 ## 📦 설치 방법
 
 ### 1. 가상 환경 생성 (권장)
@@ -56,7 +56,7 @@ python download_data.py스
 
 ## 📧 문의
 
-문제가 발생하거나 질문이 있으시면 이슈를 생성해주세요.
+문제가 발생하거나 질문이 있으시면 이슈 생성해주세요.
 
 ---
 
@@ -73,5 +73,5 @@ python download_data.py --sample
 python detect.py --source sample_images/sample_1.jpg --output result.jpg
 
 # 4. 결과 확인
-# result.jpg 파일을 열어서 Tesla FSD 스타일 객체 감지 결과를 확인하세요!
+# result.jpg 파일을 열어서 객체 감지 결과를 확인하세요!
 ```
